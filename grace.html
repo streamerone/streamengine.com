@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveAvatar Embed 2</title>
+    <style>
+        body {
+            /* Dark background for better contrast */
+            background-color: #1a1a1a;
+            margin: 0;
+            
+            /* Centers content vertically and horizontally */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            /* 60% width as requested */
+            width: 60%;
+            
+            /* Prevents it from getting too small on mobile */
+            min-width: 350px;
+        }
+
+        iframe {
+            width: 100%;
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <iframe 
+            src="https://embed.liveavatar.com/v1/c042b8f1-c246-4d3b-bc9a-c19335a39bd3" 
+            allow="microphone" 
+            title="LiveAvatar Embed" 
+            style="aspect-ratio: 16/9;">
+        </iframe>
+    </div>
+
+</body>
+</html>

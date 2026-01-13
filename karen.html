@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen - Accountability Partner</title>
+    <style>
+        body {
+            /* Makes the background dark grey so the video pops */
+            background-color: #1a1a1a;
+            margin: 0;
+            
+            /* Centers the content vertically and horizontally */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            /* Takes up 60% of the screen width, as requested */
+            width: 60%;
+            
+            /* Prevents it from looking squished on mobile phones */
+            min-width: 350px;
+        }
+
+        iframe {
+            /* Ensures the video fills the 60% container */
+            width: 100%;
+            border: none;
+            border-radius: 12px; /* Adds nice rounded corners */
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5); /* Adds a subtle shadow */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <iframe 
+            src="https://embed.liveavatar.com/v1/151db2ea-45ff-4106-8aac-40ebf5e4b12d" 
+            allow="microphone" 
+            title="LiveAvatar Embed" 
+            style="aspect-ratio: 16/9;">
+        </iframe>
+    </div>
+
+</body>
+</html>
